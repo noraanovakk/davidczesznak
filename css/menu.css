@@ -1,0 +1,41 @@
+a{
+  color: white;
+}
+
+html, body{
+  height: 100%;
+  width: 100%;
+}
+
+.container{
+  height: 100%;
+  background: #006373;
+  opacity: .6;
+}
+
+.content{
+  background: #BFD5C9;
+  border-radius: 5%;
+  margin: 0;
+  opacity: .9;
+  height: 90%;
+  padding: 2rem;
+}
+
+.link{
+  color: #006373;
+  display: block;
+  width: 0 auto;
+  padding: .3rem;
+  text-align: center;
+}
+
+.link:hover{
+  color: #B35A20;
+  text-decoration: none;
+}
+
+.menu-x{
+  text-align: right;
+  color: #BFD5C9;
+}

@@ -1,6 +1,53 @@
-.header-div{
- background-color: #C1D4DB;
- margin: 0;
- padding : 0;
- height: 2rem;
+body{
+  background-color: #D2E9E3;
+}
+
+.navbar-expand-lg{
+  display: none;
+}
+
+.pos-f-t, .collapse, .mydark{
+  background-color: #2C3532;
+}
+
+
+.link{
+  color: #106466;
+  text-decoration: none;
+}
+
+.navbar-name{
+  color: #9A9DA0;
+}
+
+.link:hover{
+  color: #D2E9E3;;
+  text-decoration: none;
+  transition: .3s;
+}
+
+ul{
+  list-style-type: none;
+}
+
+/*
+@media only screen and (min-width: 768px) {
+}
+*/
+
+
+@media only screen and (min-width: 992px) {
+  .pos-f-t{
+    display: none;
+  }
+
+  .navbar-expand-lg{
+    display: block;
+  }
+
+  .nav-item a{
+    text-align: center;
+  }
+
+
 }
