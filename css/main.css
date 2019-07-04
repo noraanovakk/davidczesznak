@@ -8,18 +8,7 @@ body{
   background-color: #D2E9E3;
 }
 
-header{
-  overflow: hidden;
-  background-color: #f1f1f1;
-  transition: 0.4s;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  z-index: 99;
-  opacity: .7;
-}
-
-.navbar-expand-lg{
+.cp-nav{
   display: none;
 }
 
@@ -56,27 +45,106 @@ ul{
   height: 100%;
 }
 
-/*
-@media only screen and (min-width: 768px) {
+.slideshow {
+  list-style-type: none;
 }
-*/
 
+/** SLIDESHOW **/
+.slideshow,
+.slideshow:after { 
+    top: 63px;
+		position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    z-index: 0; 
+}
+.slideshow li span { 
+		position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    color: transparent;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    opacity: 0;
+    z-index: 0;
+    animation: imageAnimation 30s linear infinite 0s; 
+}
+
+.slideshow li:nth-child(1) span { 
+  background-image: url("/img/SPIRIT.jpg"); 
+}
+.slideshow li:nth-child(2) span { 
+  background-image: url("/img/SPIRIT01.JPG");
+  animation-delay: 6s; 
+}
+.slideshow li:nth-child(3) span { 
+  background-image: url("/img/SPIRIT02.JPG");
+  animation-delay: 12s; 
+}
+.slideshow li:nth-child(4) span { 
+  background-image: url("/img/SPIRIT03.JPG");   
+  animation-delay: 18s; 
+}
+.slideshow li:nth-child(5) span { 
+  background-image: url("/img/SPIRIT04.JPG");
+  animation-delay: 24s; 
+}
+
+@keyframes imageAnimation { 
+  0% { opacity: 0; animation-timing-function: ease-in; }
+  8% { opacity: 1; animation-timing-function: ease-out; }
+  17% { opacity: 1 }
+  25% { opacity: 0 }
+  100% { opacity: 0 }
+}
+
+
+@keyframes titleAnimation { 
+  0% { opacity: 0 }
+  8% { opacity: 1 }
+  17% { opacity: 1 }
+  19% { opacity: 0 }
+  100% { opacity: 0 }
+}
+
+
+.no-cssanimations .cb-slideshow li span {
+opacity: 1;
+}
 
 @media only screen and (min-width: 992px) {
   header{
-    opacity: 1;
+    overflow: hidden;
+    transition: 0.4s;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 99;
   }
   .pos-f-t{
     display: none;
   }
 
-  .navbar-expand-lg{
+  .cp-nav{
     display: block;
+    width: 100%;
+  }
+
+  .navbar{
+    width: 100%;
   }
 
   .nav-item a{
     text-align: center;
   }
 
+  .slideshow,
+.slideshow:after{
+  top: 50px;
+}
 
 }

@@ -1,15 +1,17 @@
 window.onscroll = function () {scrollFunction();};
 
 function scrollFunction() {
+  var nav = document.querySelector('.cp-nav').style;
   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-    document.querySelector('header').style.height = '48px';
-    document.querySelector('header').style.opacity = '.7';
+    nav.height = '48px';
+    nav.opacity = '.7';
   } else {
-    document.querySelector('header').style.height = '56px';
-    document.querySelector('header').style.opacity = '1';
+    nav.height = '56px';
+    nav.opacity = '1';
   }
 }
 
+
 function dropdownMenu() {
-  document.querySelector('#navbarToggleExternalContent').style.opacity = '.9';
+  document.querySelector('.header-picture').style.top = '150px';
 }
