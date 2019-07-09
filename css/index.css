@@ -1,0 +1,19 @@
+.parallax{
+  background-image: url('/img/facebook_cover_photo_2.png');
+  height: 550px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media only screen and (min-width: 992px){
+  .parallax{
+    background-image: url('/img/facebook_cover_photo_2.png');
+    min-height: 1033px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
