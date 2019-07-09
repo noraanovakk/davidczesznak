@@ -5,17 +5,17 @@
 /** SLIDESHOW **/
 .slideshow,
 .slideshow:after { 
-    top: 63px;
-		position: fixed;
+    top: 0px;
+		position: relative;
     width: 100%;
-    height: 100%;
+    height: 400px;
     left: 0px;
     z-index: 0; 
 }
 .slideshow li span { 
 		position: absolute;
     width: 100%;
-    height: 100%;
+    height: 400px;
     top: 0px;
     left: 0px;
     color: transparent;
@@ -25,6 +25,12 @@
     opacity: 0;
     z-index: 0;
     animation: imageAnimation 30s linear infinite 0s; 
+}
+
+.parallax{
+  min-height: 400px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 .slideshow li:nth-child(1) span { 
@@ -69,5 +75,11 @@ opacity: 1;
   .slideshow,
   .slideshow:after{
     top: 50px;
+    height: 750px;
   }
+  .slideshow li span { 
+    height: 750px;
+  }
+
+  
 }
