@@ -24,7 +24,7 @@
     background-repeat: no-repeat;
     opacity: 0;
     z-index: 0;
-    animation: imageAnimation 24s linear infinite 0s; 
+    animation: imageAnimation 30s linear infinite 0s; 
 }
 
 .parallax{
@@ -32,28 +32,31 @@
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
-
 .slideshow li:nth-child(1) span { 
-  background-image: url("/img/EAT1.JPG"); 
+  background-image: url("/img/SPIRIT.jpg"); 
 }
 .slideshow li:nth-child(2) span { 
-  background-image: url("/img/EAT2.JPG");
+  background-image: url("/img/SPIRIT01.JPG");
   animation-delay: 6s; 
 }
 .slideshow li:nth-child(3) span { 
-  background-image: url("/img/EAT3.JPG");
+  background-image: url("/img/SPIRIT02.JPG");
   animation-delay: 12s; 
 }
 .slideshow li:nth-child(4) span { 
-  background-image: url("/img/EAT4.JPG");   
+  background-image: url("/img/SPIRIT03.JPG");   
   animation-delay: 18s; 
+}
+.slideshow li:nth-child(5) span { 
+  background-image: url("/img/SPIRIT04.JPG");
+  animation-delay: 24s; 
 }
 
 @keyframes imageAnimation { 
   0% { opacity: 0; animation-timing-function: ease-in; }
   8% { opacity: 1; animation-timing-function: ease-out; }
-  25% { opacity: 1 }
-  30% {opacity: 0}
+  17% { opacity: 1 }
+  25% { opacity: 0 }
   100% { opacity: 0 }
 }
 
@@ -61,24 +64,22 @@
 @keyframes titleAnimation { 
   0% { opacity: 0 }
   8% { opacity: 1 }
-  25% { opacity: 1 }
+  17% { opacity: 1 }
+  19% { opacity: 0 }
   100% { opacity: 0 }
 }
 
-
 .no-cssanimations .cb-slideshow li span {
-opacity: 1;
-}
-
-@media only screen and (min-width: 992px) {
-  .slideshow,
-  .slideshow:after{
-    top: 50px;
-    height: 750px;
+  opacity: 1;
   }
-  .slideshow li span { 
-    height: 750px;
-  }
-
   
-}
+  @media only screen and (min-width: 992px) {
+    .slideshow,
+    .slideshow:after{
+      top: 50px;
+      height: 750px;
+    }
+    .slideshow li span { 
+      height: 750px;
+    }
+  }

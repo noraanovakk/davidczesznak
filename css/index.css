@@ -6,6 +6,10 @@
   background-repeat: no-repeat;
 }
 
+.content{
+  opacity: .5;
+}
+
 @media only screen and (min-width: 992px){
   .parallax{
     background-image: url('/img/facebook_cover_photo_2.png');
