@@ -1,0 +1,39 @@
+.parallax{
+  background-image: url('/img/NEW.jpg');
+  min-height: 550px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.content{
+  opacity: .5;
+  position: relative;
+  margin: 0;
+  left: 30%;
+  text-align: center;
+}
+
+
+.container{
+  background-color: rgba(140, 140, 140, .2);
+  margin-top: 15em;
+  border-radius: 5%;
+}
+
+.btn{
+  margin-top: 2em;
+}
+
+@media only screen and (min-width: 992px){
+  .parallax{
+    background-image: url('/img/NEW.jpg');
+    min-height: 1033px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: -10rem;
+  }
+
+}
