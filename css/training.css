@@ -1,0 +1,46 @@
+.parallax{
+  background-image: url('/img/TRAINING2.jpg');
+  min-height: 550px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.content{
+  opacity: .8;
+  margin: 0 auto;
+  width: 80%;
+  margin-top: 10%;
+
+}
+
+/*
+.content{
+  opacity: .5;
+  position: relative;
+  margin: 0;
+  left: 30%;
+  text-align: center;
+}
+*/
+/*
+.container{
+  background-color: rgba(140, 140, 140, .2);
+  margin-top: 15em;
+  border-radius: 5%;
+}
+*/
+
+
+@media only screen and (min-width: 992px){
+  .parallax{
+    background-image: url('/img/TRAINING2.jpg');
+    min-height: 1033px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: -10rem;
+  }
+
+}

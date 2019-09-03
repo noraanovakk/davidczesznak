@@ -1,0 +1,20 @@
+.row {
+  display: flex;
+  background-image: url("/img/white-background.jpg");
+  min-height: 1033px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 0;
+  margin-top: 160px;
+  margin-bottom: 160px;
+  height: 100%;
+  width: 100%;
+}
+
+
