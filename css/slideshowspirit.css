@@ -83,3 +83,7 @@
       height: 750px;
     }
   }
+
+  .content{
+    opacity: .5;
+  }
