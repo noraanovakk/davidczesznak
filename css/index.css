@@ -1,3 +1,7 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
 .parallax{
   background-image: url('/img/facebook_cover_photo_2.png');
   min-height: 550px;

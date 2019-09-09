@@ -1,3 +1,7 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
 .parallax{
   background-image: url('/img/NEW.jpg');
   min-height: 550px;
@@ -17,7 +21,7 @@
 
 .container{
   background-color: rgba(140, 140, 140, .2);
-  margin-top: 15em;
+  margin-top: 15%;
   border-radius: 5%;
 }
 

@@ -1,3 +1,7 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
 .parallax {
   display: flex;
 /*  background-image: url("/img/white-background.jpg"); */
@@ -12,8 +16,8 @@
 .column {
   flex: 33.33%;
   padding: 0;
-  margin-top: 160px;
-  margin-bottom: 160px;
+  margin-top: 10%;
+  margin-bottom: 10%;
   height: 100%;
   width: 100%;
 }
@@ -54,19 +58,17 @@
 */
 
 .row{
-	margin-top: 10%;
-	margin-bottom: 10%;
+	margin-top: 5%;
 	opacity: .7;
-	height: 300px;
-}
-
-.col{
-	margin-top: 30%;
 }
 
 .btn{
 	border-color: #A38928;
 	color: #A38928;
+}
+
+.btn:hover{
+
 }
 
 .gold{
