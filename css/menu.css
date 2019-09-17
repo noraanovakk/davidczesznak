@@ -1,44 +1,45 @@
-a{
-  color: white;
-}
-body{
-  font-family: 'Open Sans', sans-serif;
+a {
+    color: white;
 }
 
-html, body{
-  height: 100%;
-  width: 100%;
+body {
+    font-family: 'Open Sans', sans-serif;
 }
 
-.container{
-  height: 100%;
-  background: #006373;
-  opacity: .6;
+html, body {
+    height: 100%;
+    width: 100%;
 }
 
-.content{
-  background: #BFD5C9;
-  border-radius: 5%;
-  margin: 0;
-  opacity: .9;
-  height: 90%;
-  padding: 2rem;
+.container {
+    height: 100%;
+    background: #006373;
+    opacity: .6;
 }
 
-.link{
-  color: #006373;
-  display: block;
-  width: 0 auto;
-  padding: .3rem;
-  text-align: center;
+.content {
+    background: #BFD5C9;
+    border-radius: 5%;
+    margin: 0;
+    opacity: .9;
+    height: 90%;
+    padding: 2rem;
 }
 
-.link:hover{
-  color: #B35A20;
-  text-decoration: none;
+.link {
+    color: #006373;
+    display: block;
+    width: 0 auto;
+    padding: .3rem;
+    text-align: center;
 }
 
-.menu-x{
-  text-align: right;
-  color: #BFD5C9;
+.link:hover {
+    color: #B35A20;
+    text-decoration: none;
+}
+
+.menu-x {
+    text-align: right;
+    color: #BFD5C9;
 }
