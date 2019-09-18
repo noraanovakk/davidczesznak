@@ -4,7 +4,7 @@ body {
 
 .parallax {
   display: flex;
-  /*  background-image: url("/img/white-background.jpg"); */
+	background-color: #919191;
   min-height: 900px;
   background-attachment: fixed;
   background-position: center;
@@ -19,6 +19,18 @@ body {
   margin-bottom: 10%;
   height: 100%;
   width: 100%;
+}
+
+.col{
+	text-align: center;
+}
+
+h3{
+	margin: 50% 0 5% 2%;
+}
+
+.container{
+	max-height: 500px;
 }
 
 /*
@@ -58,14 +70,6 @@ body {
 .row {
   margin-top: 5%;
   opacity: 0.7;
-}
-
-.btn {
-  border-color: #a38928;
-  color: #a38928;
-}
-
-.btn:hover {
 }
 
 .gold {
