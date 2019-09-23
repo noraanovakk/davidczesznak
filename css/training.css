@@ -2,39 +2,40 @@ body{
   font-family: 'Open Sans', sans-serif;
 }
 
-.parallax{
-  background-image: url('/img/TRAINING2.jpg');
-  min-height: 550px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
+.column {
+  padding: 0;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  height: 90%;
+  width: 90%;
 }
 
-.content{
-  opacity: .5;
-  margin: 0 auto;
-  width: 80%;
+.content {
+  opacity: 0.5;
   margin-top: 10%;
-
 }
 
-/*
-.content{
-  opacity: .5;
-  position: relative;
-  margin: 0;
-  left: 30%;
-  text-align: center;
+h3 {
+  font-size: 1.3em;
 }
-*/
-/*
-.container{
-  background-color: rgba(140, 140, 140, .2);
-  margin-top: 15em;
-  border-radius: 5%;
-}
-*/
 
+h4 {
+  font-size: 1.5em;
+}
+
+p {
+  font-size: 0.8em;
+}
+
+#video{
+  margin-top: 5%;
+  margin-left: 10%;
+}
+
+video{
+  width: 90%;
+}
 
 @media only screen and (min-width: 992px){
   .parallax{
@@ -46,5 +47,14 @@ body{
     background-size: cover;
     margin-bottom: -10rem;
   }
+
+  #video{
+    margin-left: 35%;
+    margin-top: -5%;
+   }
+   
+   video{
+     width: 50%;
+   }
 
 }

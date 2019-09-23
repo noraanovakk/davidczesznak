@@ -20,7 +20,7 @@ body {
 }
 
 .link {
-  color: #d8b08c;
+  color: #d2e9e3;
   text-decoration: none;
 }
 
@@ -39,7 +39,6 @@ ul {
   list-style-type: none;
 }
 
-
 .header-picture img {
   padding: 0;
   margin: 0;
@@ -47,21 +46,19 @@ ul {
   height: 100%;
 }
 
-
 .no-cssanimations .cb-slideshow li span {
   opacity: 1;
 }
 
 @media only screen and (min-width: 992px) {
-   
-      header {
-        overflow: hidden;
-        transition: 0.4s;
-        position: fixed;
-        width: 100%;
-        top: 0;
-        z-index: 99;
-    }
+  header {
+    overflow: hidden;
+    transition: 0.4s;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+  }
 
   .pos-f-t {
     display: none;
