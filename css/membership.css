@@ -1,81 +1,88 @@
 body {
   font-family: "Open Sans", sans-serif;
 }
-
 .parallax {
-  display: flex;
+	display: flex;
 	background-color: #919191;
-  min-height: 900px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+	max-height: 400px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
-.column {
-  flex: 33.33%;
-  padding: 0;
-  margin-top: 10%;
-  margin-bottom: 10%;
-  height: 100%;
-  width: 100%;
+.column{
+	flex: 33.33%;
+	padding: 0;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	height: 100px;
+	width: 40px;
 }
 
-.col{
-	text-align: center;
+.col {
+	text-align: left;
 }
-
-h3{
-	margin: 50% 0 5% 2%;
-}
-
-.container{
-	max-height: 500px;
-}
-
-/*
-.hover14 figure {
-	position: relative;
-}
-.hover14 figure::before {
-	position: absolute;
-	top: 0;
-	left: -75%;
-	z-index: 2;
-	display: block;
-	content: '';
-	width: 50%;
-	height: 100%;
-	background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
-	background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
-	-webkit-transform: skewX(-25deg);
-	transform: skewX(-25deg);
-}
-.hover14 figure:hover::before {
-	-webkit-animation: shine .75s;
-	animation: shine .75s;
-}
-@-webkit-keyframes shine {
-	100% {
-		left: 125%;
-	}
-}
-@keyframes shine {
-	100% {
-		left: 125%;
-	}
-}
-*/
-
 .row {
-  margin-top: 5%;
-  opacity: 0.7;
+	margin-top: 5%;
+	opacity: 0.7;
 }
 
 .gold {
-  color: #a38928;
+	color: #a38928;
+	margin-top: 20%;
+	margin-left: 5%;
+}
+
+.silver{
+	margin-top: 8%;
 }
 
 .bronze {
-  color: #b06042;
+	color: #b06042;
+}
+
+h3{
+	font-size: 1.3em;
+	text-align: left;
+}
+
+ul{
+	font-size: .8em;
+}
+
+
+@media only screen and (min-width: 992px) {
+  .parallax {
+    min-height: 900px;
+  }
+
+  .column {
+    height: 90%;
+    width: 90%;
+  }
+
+  h3 {
+    margin: 50% 0 5% 0;
+  }
+
+	.bronze{
+		margin-left: 20%;
+	}
+
+	.gold{
+		margin-top: 0;
+		margin-left: 0;
+	}
+
+	.silver{
+		margin-left: 20%;
+		margin-top: 0;
+	}
+
+  .container {
+    max-height: 500px;
+  }
+
+
 }

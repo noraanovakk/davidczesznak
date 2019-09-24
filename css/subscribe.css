@@ -4,36 +4,45 @@ body {
 
 .parallax {
     background-image: url('/img/NEW.jpg');
-    min-height: 550px;
+    min-height: 400px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container {
     opacity: .5;
     margin-top: 10%;
-    
 }
 
 .form-group{
-    min-width: 500px;
-    margin-left: 63%;
+    margin-left: 5%;
 }
 
-.btn {
-    margin-top: 2em;
+input{
+    min-width: 300px;
 }
+
+.btn{
+    margin-top: 10%;
+}
+
+
 
 @media only screen and (min-width: 992px) {
     .parallax {
-        background-image: url('/img/NEW.jpg');
         min-height: 1033px;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
         margin-bottom: -10rem;
+    }
+
+    .form-group{
+        min-width: 500px;
+        margin-left: 63%;
+    }
+    
+    .btn {
+        margin-top: 2em;
     }
 
 }

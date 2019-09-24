@@ -4,7 +4,7 @@ body {
 
 .parallax {
   display: flex;
-  min-height: 400px;
+  height: 400px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -14,11 +14,12 @@ body {
 
 .column {
   padding: 0;
-  margin-top: 25%;
+  margin-top: 10%;
   margin-bottom: 25%;
-  margin-left: 2.5%;
-  height: 95%;
-  width: 95%;
+  padding-bottom: 25%;
+  margin-left: 0;
+  height: 100%;
+  width: 100%;
 }
 
 .content {
@@ -45,16 +46,16 @@ p {
 
 @media only screen and (min-width: 992px) {
   .parallax {
-    min-height: 900px;
+    height: 1000px;
   }
 
   .column {
     padding: 0;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-left: 25%;
-    height: 50%;
-    width: 50%;
+    margin-top: 8%;
+    margin-bottom: 0;
+    margin-left: 13.5%;
+    height: 70%;
+    width: 70%;
   }
 
   .content {
