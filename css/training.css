@@ -50,11 +50,15 @@ video{
 
   #video{
     margin-left: 35%;
-    margin-top: -5%;
+    margin-top: -12%;
    }
    
    video{
      width: 50%;
+   }
+
+   p{
+     font-size: 1.2em;
    }
 
 }

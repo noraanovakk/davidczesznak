@@ -134,4 +134,12 @@ p {
   .no-cssanimations .cb-slideshow li span {
     opacity: 1;
   }
+
+  p{
+    font-size: 1.2em;
+  }
+
+  h3{
+    font-size: 1.5em;
+  }
 }

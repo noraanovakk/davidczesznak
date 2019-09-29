@@ -9,7 +9,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #919191;
+  background-color: #d2e9e3;
 }
 
 .column {
@@ -47,15 +47,16 @@ p {
 @media only screen and (min-width: 992px) {
   .parallax {
     height: 1000px;
+    margin-bottom: 10%;
   }
 
   .column {
     padding: 0;
     margin-top: 8%;
     margin-bottom: 0;
-    margin-left: 13.5%;
-    height: 70%;
-    width: 70%;
+    margin-left: 20%;
+    height: 100%;
+    width: 60%;
   }
 
   .content {
@@ -63,6 +64,6 @@ p {
   }
 
   p {
-    font-size: 1em;
+    font-size: 1.2em;
   }
 }
