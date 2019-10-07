@@ -50,6 +50,36 @@ ul {
   opacity: 1;
 }
 
+.btn-info{
+  background-color: #d2e9e3;
+  position: fixed;
+  font-size: 0.8em;
+  visibility: visible;
+  color: grey;
+  border: grey 1px solid;
+}
+
+.gdpr-button{
+  top: 3.2%;
+  right: 1%;
+  width: 5em;
+}
+
+.afsz-button{
+  top: 5.5%;
+  right: 1%;
+  width: 5em;
+}
+
+.modal-footer{
+  text-align: left;
+  justify-content: flex-start;
+}
+
+.modal-footer p{
+  margin-top: 2%;
+}
+
 @media only screen and (min-width: 992px) {
   header {
     overflow: hidden;
@@ -93,5 +123,25 @@ ul {
     left: 45%;
     right: 45%;
     opacity: 0.5;
+  }
+
+  .btn-info{
+    position: fixed;
+    z-index: 1;
+    visibility: hidden;
+  }
+
+  .gdpr-button{
+    top: 10%;
+    right: 2%;
+    font-size: 1em;
+    width: 5em;
+  }
+
+  .afsz-button{
+    top: 17%;
+    right: 2%;
+    font-size: 1em;
+    width: 5em;
   }
 }

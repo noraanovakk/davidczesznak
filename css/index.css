@@ -46,17 +46,17 @@ p {
 
 @media only screen and (min-width: 992px) {
   .parallax {
-    height: 1000px;
+    height: 700px;
     margin-bottom: 10%;
   }
 
   .column {
     padding: 0;
-    margin-top: 8%;
-    margin-bottom: 0;
-    margin-left: 20%;
     height: 100%;
-    width: 60%;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 8%;
+    margin-bottom: 25%;
   }
 
   .content {

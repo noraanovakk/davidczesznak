@@ -37,6 +37,11 @@ video{
   width: 90%;
 }
 
+.title{
+  opacity: .4;
+  font-size: .8em;
+}
+
 @media only screen and (min-width: 992px){
   .parallax{
     background-image: url('/img/TRAINING2.jpg');

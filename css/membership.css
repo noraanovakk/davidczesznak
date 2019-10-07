@@ -3,7 +3,7 @@ body {
 }
 .parallax {
 	display: flex;
-	background-color: #919191;
+	background-color: #d2e9e3;
 	max-height: 400px;
 	background-attachment: fixed;
 	background-position: center;
@@ -24,18 +24,12 @@ body {
 	text-align: left;
 }
 .row {
-	margin-top: 5%;
 	opacity: 0.7;
 }
 
 .gold {
 	color: #a38928;
-	margin-top: 20%;
 	margin-left: 5%;
-}
-
-.silver{
-	margin-top: 8%;
 }
 
 .bronze {
@@ -51,6 +45,11 @@ ul{
 	font-size: .8em;
 }
 
+.header-picture img{
+	padding: 2%;
+}
+
+
 
 @media only screen and (min-width: 992px) {
   .parallax {
@@ -59,9 +58,9 @@ ul{
 
   .column {
     height: 90%;
-    width: 90%;
-  }
-
+    width: 80%;
+	}
+	
   h3 {
 		margin: 50% 0 5% 0;
 		font-size: 1.5em;
@@ -71,23 +70,40 @@ ul{
 		font-size: 1.2em;
 	}
 
-	.bronze{
-		margin-left: 20%;
+	.row{
+		width: 140%;
+		margin-left: -20%;
+	}
+
+
+	.col{
+		width: 70%;
 	}
 
 	.gold{
-		margin-top: 0;
-		margin-left: 0;
+		padding: 0 10% 0 0;
 	}
 
 	.silver{
-		margin-left: 20%;
-		margin-top: 0;
+		padding: 0 10% 0 10%;
 	}
 
+	.bronze{
+		padding: 0 0 0 10%;
+	}
+/*	.bronze{
+		margin-left: 40%;
+	}
+
+	.gold{
+		margin-left: -10%;;
+	}
+
+	.silver{
+		margin-left: 30%;
+	}
+*/
   .container {
     max-height: 500px;
-  }
-
-
+	}
 }

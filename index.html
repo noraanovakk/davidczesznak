@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
@@ -13,149 +14,210 @@
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
     <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="css/footer.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <title>Czesznak Dávid</title>
 </head>
+
 <body>
-<header>
-    <div class="pos-f-t">
-        <div class="collapse" id="navbarToggleExternalContent">
-            <div class="mydark bg-dark p-4">
-                <h5 class="text-white h4"></h5>
-                <ul class="list-group list-group-flush">
-                    <li><a class="link list-group-item bg-dark" href="spirit.html">Sprititualitás</a></li>
-                    <li><a class="link list-group-item bg-dark" href="training.html">Edzés</a></li>
-                    <li><a class="link list-group-item bg-dark" href="eating.html">Táplálkozás</a></li>
-                    <li><a class="link list-group-item bg-dark" href="news.html">Újdonságok</a></li>
-                    <li><a class="link list-group-item bg-dark" href="order.html">Megrendelés</a></li>
-                    <li><a class="link list-group-item bg-dark" href="membership.html">Tagság</a></li>
-                    <li><a class="link list-group-item bg-dark" href="shop.html">Bolt</a></li>
-                    <li><a class="link list-group-item bg-dark" href="subscribe.html">Feliratkozás</a></li>
+    <header>
+        <div class="pos-f-t">
+            <div class="collapse" id="navbarToggleExternalContent">
+                <div class="mydark bg-dark p-4">
+                    <h5 class="text-white h4"></h5>
+                    <ul class="list-group list-group-flush">
+                        <li><a class="link list-group-item bg-dark" href="spirit.html">Sprititualitás</a></li>
+                        <li><a class="link list-group-item bg-dark" href="training.html">Edzés</a></li>
+                        <li><a class="link list-group-item bg-dark" href="eating.html">Táplálkozás</a></li>
+                        <li><a class="link list-group-item bg-dark" href="news.html">Újdonságok</a></li>
+                        <li><a class="link list-group-item bg-dark" href="order.html">Megrendelés</a></li>
+                        <li><a class="link list-group-item bg-dark" href="membership.html">Tagság</a></li>
+                        <li><a class="link list-group-item bg-dark" href="shop.html">Bolt</a></li>
+                        <li><a class="link list-group-item bg-dark" href="subscribe.html">Feliratkozás</a></li>
+                    </ul>
+                </div>
+            </div>
+            <nav class="mydark navbar navbar-dark bg-dark">
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                    aria-expanded="false" aria-label="Toggle navigation" onclick="dropdownMenu()">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </nav>
+        </div>
+
+        <div class="cp-nav navbar-expand-lg justify-content-center">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-center"
+                style="background-color: #2C3532;">
+                <ul class="navbar-nav nav justify-content-center">
+                    <li class="nav-item"><a class="nav-link" href="spirit.html">Sprititualitás</a></li>
+                    <li class="nav-item"><a class="nav-link" href="training.html">Edzés</a></li>
+                    <li class="nav-item"><a class="nav-link" href="eating.html">Táplálkozás</a></li>
+                    <li class="nav-item"><a class="nav-link" href="news.html">Újdonságok</a></li>
+                    <li class="nav-item"><a class="nav-link" href="order.html">Megrendelés</a></li>
+                    <li class="nav-item"><a class="nav-link" href="membership.html">Tagság</a></li>
+                    <li class="nav-item"><a class="nav-link" href="shop.html">Bolt</a></li>
+                    <li class="nav-item"><a class="nav-link" href="subscribe.html">Feliratkozás</a></li>
                 </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="header-picture">
+        <div class="parallax">
+            <div class="column">
+                <img src="/img/David_vektor_bg.jpg" alt="Silver" style="width:100%">
+
             </div>
         </div>
-        <nav class="mydark navbar navbar-dark bg-dark">
-            <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-        </nav>
-    </div>
+        <div class="container  align-self-center d-flex align-items-center" id="container">
 
-    <div class="cp-nav navbar-expand-lg justify-content-center">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-center"
-             style="background-color: #2C3532;">
-            <ul class="navbar-nav nav justify-content-center">
-                <li class="nav-item"><a class="nav-link" href="spirit.html">Sprititualitás</a></li>
-                <li class="nav-item"><a class="nav-link" href="training.html">Edzés</a></li>
-                <li class="nav-item"><a class="nav-link" href="eating.html">Táplálkozás</a></li>
-                <li class="nav-item"><a class="nav-link" href="news.html">Újdonságok</a></li>
-                <li class="nav-item"><a class="nav-link" href="order.html">Megrendelés</a></li>
-                <li class="nav-item"><a class="nav-link" href="membership.html">Tagság</a></li>
-                <li class="nav-item"><a class="nav-link" href="shop.html">Bolt</a></li>
-                <li class="nav-item"><a class="nav-link" href="subscribe.html">Feliratkozás</a></li>
-            </ul>
-        </nav>
-    </div>
-</header>
-<div class="header-picture">
-    <div class="parallax">
-        <div class="column">
-            <img src="/img/David_vektor_bg.jpg" alt="Silver" style="width:100%">
-            
+            <div class="content text-justify">
+                <h3 class="font-weight-bold">Sziasztok! </h3>
+                <h3 class="font-weight-bold">Czesznak Dávid vagyok.</h3>
+                <h4 class="text-uppercase">IFBB Fitness edző. </h4>
+                <p></p>
+                <p>
+                    10 éve foglalkozom edzéssel és 2017-től tartok edzéseket.
+                    10-12 éves koromban már voltak panaszaim a gerincemmel, emiatt kezdtem el edzeni.
+                    Követtem is el számos hibát, mivel egyedül és nem egy hozzáértő társsal fogtam hozzá.
+                    Ettől szeretnélek téged is megkímélni! 55kg-al kezdtem az edzést, jelenleg pedig 75kg körül mozgok.
+                    Úgy érzem sokkal feljebb már nem is fogok “erősödni” tömegben.
+                    17% körül mozog a testzsírom a mérések alapján, bár ez az adat nem túl nagy jelentőségû!
+                    A legfontosabb, hogy hogyan érzed magad a testedben és boldog vagy-e igazán.
+                    Edzéssel számos korlátot átléphetsz és fitten tarthatod a lelked!
+                    Amiben szeretnék segíteni neked az az edzés (fogyás, erőnövelés, állóképességi fejlődés,
+                    koordináció,
+                    mobilitás), helyes testtartás, szellemi fejlődés, táplálkozás.
+                    Fontosnak tartom, hogy a körülöttem levők számos tanácsot kapva egyre közelebb kerüljenek a
+                    feszültségmentes
+                    élethez és egészséghez. Tarts velem!
+                </p>
+                <p>
+                    Az életkörnyezetnek (város zaja, káros levegője- vidék tétlen csendje) van számos káros hatása amely
+                    hozzásegít minket az öregedéshez.
+                    Mozognunk kell átlag napi 30-45’-et egy héten min 3-szor és a táplálkozásunkkal hozzá kell járulnunk
+                    a
+                    testi- lelki fiatalsághoz.
+                    “ új hobbim az alvás!” 8-9 óra napi alvás már elég lesz a rendezett gondolatokhoz és lendületes
+                    naphoz.
+                    Kevesebb stressz, több nevetés. Én így támogatom a ráncmentes életet.
+                    Kiömlik a kávé, elkésel a munkából! Bárkivel megesik, de tanuld meg kinevetni magadat!
+                </p>
+                <p>
+                    Szerintem nem lenne életszerû, ha minden úgy történne ahogy megtervezem. Step by step, mondja az
+                    angol.
+                    Nem számít, ha lépésenként haladsz csak. A legrosszabb, ha el sem kezded és saját magadnak is
+                    hazudsz.
+                    Határozd el és vidd véghez minden követ megmozgatva.
+                </p>
+            </div>
+
+            <!--Modal button-->
+
+            <button type="button" class="btn btn-info btn-lg gdpr-button" data-toggle="modal"
+                data-target="#gdpr">GDPR</button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="gdpr" role="dialog">
+                <div class="modal-dialog">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <p>Some text in the modal.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <input type="checkbox">
+                            <p>Elfogadom</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!--Modal button-->
+
+            <button type="button" class="btn btn-info btn-lg afsz-button" data-toggle="modal"
+                data-target="#afsz">ÁFSZ</button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="afsz" role="dialog">
+                <div class="modal-dialog">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <p>Some text in the modal.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <input type="checkbox">
+                            <p>Elfogadom</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
         </div>
-</div>
-<div class="container  align-self-center d-flex align-items-center" id="container">
-    <div class="content text-justify">
-        <h3 class="font-weight-bold">Sziasztok! </h3>
-        <h3 class="font-weight-bold">Czesznak Dávid vagyok.</h3>
-        <h4 class="text-uppercase">IFBB Fitness edző. </h4>
-        <p></p>
-        <p>
-            10 éve foglalkozom edzéssel és 2017-től tartok edzéseket.
-            10-12 éves koromban már voltak panaszaim a gerincemmel, emiatt kezdtem el edzeni.
-            Követtem is el számos hibát, mivel egyedül és nem egy hozzáértő társsal fogtam hozzá.
-            Ettől szeretnélek téged is megkímélni! 55kg-al kezdtem az edzést, jelenleg pedig 75kg körül mozgok.
-            Úgy érzem sokkal feljebb már nem is fogok “erősödni” tömegben.
-            17% körül mozog a testzsírom a mérések alapján, bár ez az adat nem túl nagy jelentőségû!
-            A legfontosabb, hogy hogyan érzed magad a testedben és boldog vagy-e igazán.
-            Edzéssel számos korlátot átléphetsz és fitten tarthatod a lelked!
-            Amiben szeretnék segíteni neked az az edzés (fogyás, erőnövelés, állóképességi fejlődés, koordináció,
-            mobilitás), helyes testtartás, szellemi fejlődés, táplálkozás.
-            Fontosnak tartom, hogy a körülöttem levők számos tanácsot kapva egyre közelebb kerüljenek a feszültségmentes
-            élethez és egészséghez. Tarts velem!
-        </p>
-        <p>
-            Az életkörnyezetnek (város zaja, káros levegője- vidék tétlen csendje) van számos káros hatása amely
-            hozzásegít minket az öregedéshez.
-            Mozognunk kell átlag napi 30-45’-et egy héten min 3-szor és a táplálkozásunkkal hozzá kell járulnunk a
-            testi- lelki fiatalsághoz.
-            “ új hobbim az alvás!” 8-9 óra napi alvás már elég lesz a rendezett gondolatokhoz és lendületes naphoz.
-            Kevesebb stressz, több nevetés. Én így támogatom a ráncmentes életet.
-            Kiömlik a kávé, elkésel a munkából! Bárkivel megesik, de tanuld meg kinevetni magadat!
-        </p>
-        <p>
-            Szerintem nem lenne életszerû, ha minden úgy történne ahogy megtervezem. Step by step, mondja az angol.
-            Nem számít, ha lépésenként haladsz csak. A legrosszabb, ha el sem kezded és saját magadnak is hazudsz.
-            Határozd el és vidd véghez minden követ megmozgatva.
-        </p>
-    </div>
-</div>
-<footer class="footer-distributed">
-    <div class="footer-left">
-        <h3>Czesznak<span>Dávid</span></h3>
-        <p class="footer-links">
-            <a href="#">GDPR</a>
-            ·
-            <a href="#">ÁFSZ</a>
-        </p>
-    </div>
+        <footer class="footer-distributed">
+            <div class="footer-left">
+                <h3>Czesznak<span>Dávid</span></h3>
+                <p class="footer-links">
+                    <a href="#">GDPR</a>
+                    ·
+                    <a href="#">ÁFSZ</a>
+                </p>
+            </div>
 
-    <div class="footer-center">
+            <div class="footer-center">
 
-        <div>
-            <i class="fa fa-envelope"></i>
-            <p><a href="mailto:czesznakdavid@icloud.com">czesznakdavid@icloud.com</a></p>
-        </div>
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <p><a href="mailto:czesznakdavid@icloud.com">czesznakdavid@icloud.com</a></p>
+                </div>
 
-    </div>
+            </div>
 
-    <div class="footer-right">
+            <div class="footer-right">
 
-        <p class="footer-company-about">
+                <p class="footer-company-about">
 
-            Certified Personal Fitness Trainer <br>
-            IFBB személyi edző
-        </p>
+                    Certified Personal Fitness Trainer <br>
+                    IFBB személyi edző
+                </p>
 
-        <div class="footer-icons">
+                <div class="footer-icons">
 
-            <a href="#"><i class="fa fa-facebook"></i></a>
-            <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/david.czesznak" target="_blank"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/_daveczesznak_" target="_blank"><i
+                            class="fa fa-instagram"></i></a>
 
-        </div>
+                </div>
 
-    </div>
-</footer>
+            </div>
+        </footer>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js">
-    $("#button").click(function(e){
-    e.preventDefault();
-    $('html, body').animate({
-        scrollTop: $("#container").offset().top
-    }, 2000);
-});
-</script>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
-<script src="js/app.js" type="text/javascript"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js">
+            $("#button").click(function (e) {
+                e.preventDefault();
+                $('html, body').animate({
+                    scrollTop: $("#container").offset().top
+                }, 2000);
+            });
+        </script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+        </script>
+        <script src="js/app.js" type="text/javascript"></script>
 
 </body>
+
 </html>
