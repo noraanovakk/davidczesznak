@@ -51,6 +51,7 @@ ul {
 }
 
 .btn-info{
+  display: none;
   background: none;
   position: absolute;
   font-size: 0.8em;
@@ -126,6 +127,7 @@ ul {
   }
 
   .btn-info{
+    display: block;
     position: fixed;
     z-index: 1;
     visibility: hidden;
