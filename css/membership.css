@@ -49,8 +49,6 @@ ul{
 	padding: 2%;
 }
 
-
-
 @media only screen and (min-width: 992px) {
   .parallax {
     min-height: 1000px;
@@ -91,19 +89,12 @@ ul{
 	.bronze{
 		padding: 0 0 0 10%;
 	}
-/*	.bronze{
-		margin-left: 40%;
-	}
 
-	.gold{
-		margin-left: -10%;;
-	}
-
-	.silver{
-		margin-left: 30%;
-	}
-*/
   .container {
     max-height: 500px;
+	}
+
+	.btn-info{
+		visibility: visible !important;
 	}
 }

@@ -51,23 +51,23 @@ ul {
 }
 
 .btn-info{
-  background-color: #d2e9e3;
-  position: fixed;
+  background: none;
+  position: absolute;
   font-size: 0.8em;
-  visibility: visible;
+  visibility: hidden;
   color: grey;
   border: grey 1px solid;
 }
 
 .gdpr-button{
-  top: 3.2%;
-  right: 1%;
+  bottom: 27%;
+  left: 5%;
   width: 5em;
 }
 
 .afsz-button{
-  top: 5.5%;
-  right: 1%;
+  bottom: 27%;
+  left: 24%;
   width: 5em;
 }
 
@@ -129,19 +129,26 @@ ul {
     position: fixed;
     z-index: 1;
     visibility: hidden;
+    opacity: 1;
   }
 
   .gdpr-button{
+    bottom: 84%;
     top: 10%;
     right: 2%;
+    left: 90%;
     font-size: 1em;
     width: 5em;
+    opacity: 0;
   }
 
   .afsz-button{
     top: 17%;
+    bottom: 77%;
+    left: 90%;
     right: 2%;
     font-size: 1em;
     width: 5em;
+    opacity: 0;
   }
 }

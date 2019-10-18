@@ -1,7 +1,7 @@
 window.onscroll = function () {
   scrollFunction();
 
-  if (window.innerWidth > 992) {
+  if (window.innerWidth >= 992) {
     showButtons();
   }
 };
@@ -40,11 +40,17 @@ function showButtons() {
 
   var y = window.scrollY;
 
-  if (y >= 980) {
+  if (y >= 800) {
     afszButton.style.visibility = 'visible';
     gdprButton.style.visibility = 'visible';
+    afszButton.style.transition = 'opacity .5s .25s ease-out';
+    gdprButton.style.transition = 'opacity .5s .25s ease-out';
+    afszButton.style.opacity = '1';
+    gdprButton.style.opacity = '1';
   } else {
     afszButton.style.visibility = 'hidden';
     gdprButton.style.visibility = 'hidden';
+    afszButton.style.opacity = '0';
+    gdprButton.style.opacity = '0';
   }
 }
