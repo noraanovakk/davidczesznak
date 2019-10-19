@@ -1,55 +1,67 @@
 body {
-    font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .parallax {
-    background-image: url('/img/NEW.jpg');
-    min-height: 400px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("/img/NEW.jpg");
+  min-height: 400px;
+  background-attachment: relative;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .container {
-    opacity: .5;
-    margin-top: 10%;
+  opacity: 0.5;
+  margin-top: 10%;
 }
 
-.form-group{
-    margin-left: 5%;
+.form-group {
+  margin-left: 5%;
 }
 
-input{
-    min-width: 300px;
+.content {
+  margin: 0 auto;
 }
 
-.btn{
-    margin-top: 10%;
+input {
+  min-width: 300px;
 }
 
+.btn {
+  margin-top: 10%;
+}
 
+@media only screen and (min-width: 700px) {
+  .parallax {
+    height: 500px;
+  }
+}
 
 @media only screen and (min-width: 992px) {
-    .parallax {
-        min-height: 1033px;
-        margin-bottom: -10rem;
-    }
+  .parallax {
+    min-height: 1033px;
+    margin-bottom: -10rem;
+  }
 
-    .form-group{
-        min-width: 500px;
-        margin-left: 63%;
-    }
-    
-    .btn {
-        margin-top: 2em;
-    }
+  .content{
+      margin:0;
+  }
 
-    label{
-        font-size: 1.2em;
-    }
+  .form-group {
+    min-width: 500px;
+    margin-left: 63%;
+  }
 
-    .btn-info{
-        margin-top: 0 !important;
-    }
+  .btn {
+    margin-top: 2em;
+  }
+
+  label {
+    font-size: 1.2em;
+  }
+
+  .btn-info {
+    margin-top: 0 !important;
+  }
 }
